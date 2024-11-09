@@ -1,0 +1,25 @@
+{
+  "name": "animesapi",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start:mssql": "node --watch server-with-mssql.js",
+    "start:mysql": "node --watch server-with-mysql.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "animesapi": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "msnodesqlv8": "^4.2.1",
+    "mssql": "^11.0.1",
+    "mysql2": "^3.11.4",
+    "zod": "^3.23.8"
+  }
+}
