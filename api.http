@@ -1,1 +1,1 @@
-GET http://localhost:1234/api/animes
+GET http://localhost:1234/api/animes?page=2&limit=10

@@ -1,9 +1,9 @@
-import AnimeList from "./components/AnimeList";
+import AnimesPage from "./pages/AnimesPage";
 
 function App() {
   return (
     <div>
-      <AnimeList />
+      <AnimesPage />
     </div>
   );
 }
